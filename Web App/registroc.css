@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    min-height: 100vh;
+    background: #0f111a;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2{
+    color: white;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.brand{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidemenu{
+    position: fixed;
+    background:#0f111a;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidemenu .brand{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidemenu a{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 10px 60px;
+    color: white;
+    align-items: center;
+
+}
+
+.sidemenu text{
+    width: 100%;
+    padding: 50px;
+
+
+}
+
+.sidemenu a:hover{
+    background: #45b37c;
+    color: grey;
+
+
+}
+
+.botones{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    width: 800px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.boton1{
+    margin: auto;
+    background: #ffcd60;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0/30%);
+
+}
+
+.boton1:hover{
+    background: rgb(255, 205, 149);
+}
+
+.boton2{
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffcd60;
+    text-align: center;
+    font-size: 40px;
+    width: 500px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0/30%);
+
+}
+
+.boton2:hover{
+    background: rgb(255, 205, 149);
+}
+
+.contenedor {
+    border-radius: 8px;
+    background: #161924;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    align-items: center;
+}
+
+.contenedor .listado {
+    width: 90%;
+    height: 210px;
+    margin: 10px 40px;
+    background-color: #1e212c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(150, 150, 150, 0.3);
+}
+
+.contenedor .listado h3 {
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+.contenedor .listado .productos {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    padding: 10 30px;
+    border: solid 1px ;
+}
+
+table{
+
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+
+thead{
+    background: #15171d;
+    width: 100%;
+
+}
+
+th{
+    padding: 10px 15.3px;
+    color: white;
+}
+
+td{
+    padding: 15px;
+    background: #676970;
+}
+
+.contenedor .listado .productos p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}
+
+.contenedor .formulario {
+    width: 90%;
+    height: 350px;
+    margin: 15px 15px;
+    margin-left: 40px;
+    background-color: #1e212c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.contenedor .formulario form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .formulario input{
+    width: 70%;
+    border-radius: 4px;
+    height: 20px;
+    padding: 10px;
+    margin: 7px;
+    background-color: #232631;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(95, 95, 95);
+}
+.contenedor .formulario button {
+    width: 70%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    background: #45b37c;
+    color: white;
+    border-color: #45b37c;
+}
